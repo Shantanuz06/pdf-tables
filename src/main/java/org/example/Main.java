@@ -12,7 +12,10 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws IOException {
+        lpdft();
 
+    }
+    public static void lpdft(){
         InputStream in;
         in = this.getClass().getResourceAsStream("textFile.pdf");
         {
